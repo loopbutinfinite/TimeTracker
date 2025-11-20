@@ -173,3 +173,27 @@ body {
     cursor: alias;
     }
 }
+@media(max-width: 768px){
+    .tabletDWMFormatting{
+        margin-top: 10px;
+        margin-left: 25px;
+        margin-right: 25px;
+        font-size: 20px;
+    }
+    .tabletContainerFormatting{
+        margin-right: -30px !important;
+        padding-right: 0px !important;
+    }
+    .playTabletFormatting{
+        margin-top: 24px;
+    }
+    .tabletReportCardFormatting{
+        margin-top: -75px !important;
+    }
+    .tabletFormatting{
+        margin-top: -20px;
+    }
+    .studyTabletFormatting{
+        margin-top: 9px;
+    }
+}
