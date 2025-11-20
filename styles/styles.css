@@ -1,0 +1,175 @@
+body {
+    background-color: #0E1323 !important;
+}
+.rubikFont{
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.reportCard{
+    background-color: #1C204B !important;
+    border-radius: 20px !important;
+    height: 100% !important;
+}
+.userInfo{
+    background-color: #5747EA !important;
+    border-radius: 16px;
+}
+.imgReportStyling{
+    border: 3px solid #FFFFFF;
+    border-radius: 50px; /* this makes the img in the report card rounded */
+}
+.reportHeader{
+    color: #BBC0FF !important;
+    font-size: 16px;
+}
+.reportUsername{
+    color: #FFFFFF !important;
+    font-size: 40px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 100;
+}
+.fontColorWhite{
+    color: #FFFFFF !important;
+}
+.workCardBG{
+    background-color: #FF8B64 !important;
+}
+.playCardBG{
+    background-color: #55C2E6 !important;
+}
+.studyBG{
+    background-color: #FF5E7D !important;
+}
+.exerciseBG{
+    background-color: #4BCF82 !important;
+}
+.socialBG{
+    background-color: #7335D2 !important;
+}
+.selfCareBG{
+    background-color: #F1C75B !important;
+}
+.reportCardTimePeriods{
+    color: #7078C9;
+}
+.reportCardTimePeriods:hover{
+    color: white;
+}
+.moreOptionsButton{
+    color: #BBC0FF !important;
+    font-size: 25px;
+    margin-top: -15px;
+}
+.moreOptionsButton:hover{ /* putting hover here means that when someone is hovering over the html element, this will fire */
+    color: white !important;
+    cursor: pointer; /* Will change the cursor when you hover over "..." */
+    cursor: default;
+}
+.activityImgCard {
+    border-radius: 20px;
+    overflow: hidden;
+}
+.activityCard{
+    background-color: #1C204B !important;
+    border-radius: 20px;
+    position: relative;
+    margin-top: -30px; /* giving it a negative margin top along with the position being set to relative allows the card to lay over the img and have that stacking effect */
+}
+.activityCard:hover{
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #33397A !important;
+    cursor: pointer;
+}
+.activityCardTitle{
+    font-size: 18px;
+    color: #FFFFFF !important;
+    font-family: "Rubik", sans-serif;
+}
+.activityCardTime{
+    font-size: 56px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 100;
+}
+.activityCardPreviousTime{
+    color: #BBC0FF !important;
+    font-size: 15px;
+    font-family: "Rubik", sans-serif;
+}
+.centeringContainer{
+    margin-top: 150px;
+}
+#dailyStats:hover{
+    cursor:alias;
+}
+#weeklyStats:hover{
+    cursor:alias;
+}
+#monthlyStats:hover{
+    cursor: alias;
+}
+
+/* For mobile L and below */
+@media (max-width: 425px) {
+    .userInfo{
+        display: flex;
+        align-items: center;
+    }
+    .mobileLFormatting{
+        margin-top: -15px;
+        margin-left: 20px;
+    }
+    .reportUsername{
+        font-size: 30px;
+    }
+    /* this targets the Daily Weekly Monthly section of the report card and adds margin to both the left and right sides so that it appears centered for mobile */
+    .mobileDWMFormatting{
+        margin-left: 30px;
+        margin-right: 30px;
+        font-size: 20px;
+    }
+    .activityCardTime{
+        font-size: 32px;
+    }
+    .moreOptionsButton{   /* this targets the "..." in the activity card and makes it larger for mobile */
+        font-size: 35px;
+        margin-bottom: 0px;
+        margin-top: -20px;
+    }
+    .activityCardPreviousTime{
+        font-weight: 100;
+        display: flex;
+        justify-content: end;
+        margin-top: -30px;
+        margin-bottom: 10px;
+    }
+    .activityCardTitle{
+        margin-top: 10px;
+    }
+    .imgReportStyling{
+        margin-top: 10px;
+    }
+    .centeringContainer{
+        margin-top: 75px;
+    }
+    .moreOptionsButton:hover{
+        color: white !important;
+        cursor: default;
+    }
+    .activityCard:hover{
+        border-radius: 20px;
+        overflow: hidden;
+        background-color: #33397A !important;
+        cursor: pointer;
+    }
+    #dailyStats:hover{
+    cursor:alias;
+    }
+    #weeklyStats:hover{
+    cursor:alias;
+    }
+    #monthlyStats:hover{
+    cursor: alias;
+    }
+}
