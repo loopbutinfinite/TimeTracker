@@ -26,17 +26,17 @@ console.log(data[0].timeframes.daily.previous) //Displays the previous time for 
 //event listener that invokes a function when user clicks on Daily.
 dailyStats.addEventListener("click", function () {
     workCurrentTime.innerText = `${data[0].timeframes.daily.current}hrs`; //Work
-    workPreviousTime.innerText = `Last Week - ${data[0].timeframes.daily.previous}hrs`
+    workPreviousTime.innerText = `Yesterday - ${data[0].timeframes.daily.previous}hrs`
     playCurrentTime.innerText = `${data[1].timeframes.daily.current}hrs`; //Play
-    playPreviousTime.innerText = `Last Week - ${data[1].timeframes.daily.previous}hrs`
+    playPreviousTime.innerText = `Yesterday - ${data[1].timeframes.daily.previous}hrs`
     studyCurrentTime.innerText = `${data[2].timeframes.daily.current}hrs`; //Study
-    studyPreviousTime.innerText = `Last Week - ${data[2].timeframes.daily.previous}hrs`
+    studyPreviousTime.innerText = `Yesterday - ${data[2].timeframes.daily.previous}hrs`
     exerciseCurrentTime.innerText = `${data[3].timeframes.daily.current}hrs`; //Exercise
-    exercisePreviousTime.innerText = `Last Week - ${data[3].timeframes.daily.previous}hrs`
+    exercisePreviousTime.innerText = `Yesterday - ${data[3].timeframes.daily.previous}hrs`
     socialCurrentTime.innerText = `${data[4].timeframes.daily.current}hrs`; //Social
-    socialPreviousTime.innerText = `Last Week - ${data[4].timeframes.daily.previous}hrs`
+    socialPreviousTime.innerText = `Yesterday - ${data[4].timeframes.daily.previous}hrs`
     selfcareCurrentTime.innerText = `${data[5].timeframes.daily.current}hrs`; //Self Care
-    selfcarePreviousTime.innerText = `Last Week - ${data[5].timeframes.daily.previous}hrs`
+    selfcarePreviousTime.innerText = `Yesterday - ${data[5].timeframes.daily.previous}hrs`
 });
 
 console.log(data[0].timeframes.weekly.current)
@@ -62,15 +62,15 @@ console.log(data[0].timeframes.monthly.previous)
 
 monthlyStats.addEventListener("click", function (){
     workCurrentTime.innerText = `${data[0].timeframes.monthly.current}hrs`;
-    workPreviousTime.innerText = `Last Week - ${data[0].timeframes.monthly.previous}hrs`
+    workPreviousTime.innerText = `Last Month - ${data[0].timeframes.monthly.previous}hrs`
     playCurrentTime.innerText = `${data[1].timeframes.monthly.current}hrs`;
-    playPreviousTime.innerText = `Last Week - ${data[1].timeframes.monthly.previous}hrs`
+    playPreviousTime.innerText = `Last Month - ${data[1].timeframes.monthly.previous}hrs`
     studyCurrentTime.innerText = `${data[2].timeframes.monthly.current}hrs`;
-    studyPreviousTime.innerText = `Last Week - ${data[2].timeframes.monthly.previous}hrs`
+    studyPreviousTime.innerText = `Last Month - ${data[2].timeframes.monthly.previous}hrs`
     exerciseCurrentTime.innerText = `${data[3].timeframes.monthly.current}hrs`;
-    exercisePreviousTime.innerText = `Last Week - ${data[3].timeframes.monthly.previous}hrs`
+    exercisePreviousTime.innerText = `Last Month - ${data[3].timeframes.monthly.previous}hrs`
     socialCurrentTime.innerText = `${data[4].timeframes.monthly.current}hrs`;
-    socialPreviousTime.innerText = `Last Week - ${data[4].timeframes.monthly.previous}hrs`
+    socialPreviousTime.innerText = `Last Month - ${data[4].timeframes.monthly.previous}hrs`
     selfcareCurrentTime.innerText = `${data[5].timeframes.monthly.current}hrs`;
-    selfcarePreviousTime.innerText = `Last Week - ${data[5].timeframes.monthly.previous}hrs`
+    selfcarePreviousTime.innerText = `Last Month - ${data[5].timeframes.monthly.previous}hrs`
 });
